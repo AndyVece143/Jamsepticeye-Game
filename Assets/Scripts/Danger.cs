@@ -6,7 +6,8 @@ public class Danger : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
-            collision.GetComponent<Player>().isGhost = true;
+            collision.GetComponent<Player>().isAngel = true;
+            collision.GetComponent<Player>().anim.SetBool("angel", true);
         }
     }
 }

@@ -6,7 +6,8 @@ public class Life : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
-            collision.GetComponent<Player>().isGhost = false;
+            collision.GetComponent<Player>().isAngel = false;
+            Destroy(gameObject);
         }
     }
 }
