@@ -1,10 +1,25 @@
 fileFormatVersion: 2
-guid: 2ca031a85e9e2054787b4d07014e2fc5
+guid: 8b1a992fedad1c944bf5b6e3308a2486
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8751087597271938525
-    second: Sign1_0
+      213: -1882380655364531335
+    second: myname_0
+  - first:
+      213: 8931166311339138587
+    second: myname_1
+  - first:
+      213: 2001912630293292754
+    second: myname_2
+  - first:
+      213: -9141144897601207600
+    second: myname_3
+  - first:
+      213: 3952352187632709749
+    second: myname_4
+  - first:
+      213: 2312586510101488314
+    second: myname_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +61,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -113,199 +128,133 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: player_0
+      name: myname_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 83
-        width: 30
-        height: 40
+        x: 0
+        y: 4
+        width: 12
+        height: 18
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 024a20edeee382c30800000000000000
-      internalID: 4334783836991956000
+      spriteID: 97b1ee864c070e5e0800000000000000
+      internalID: -1882380655364531335
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_1
+      name: myname_1
       rect:
         serializedVersion: 2
-        x: 32
-        y: 83
-        width: 30
-        height: 40
+        x: 9
+        y: 0
+        width: 13
+        height: 17
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 5929fc5a3c3bf7d48861cdb15ed345d8
-      internalID: -1337297825
+      spriteID: b1e1e49d070e1fb70800000000000000
+      internalID: 8931166311339138587
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_2
+      name: myname_2
       rect:
         serializedVersion: 2
-        x: 63
-        y: 83
-        width: 30
-        height: 40
+        x: 23
+        y: 4
+        width: 37
+        height: 20
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: a402e10d18c680b4e8de98236fa95052
-      internalID: -282994653
+      spriteID: 2d6efff3ee838cb10800000000000000
+      internalID: 2001912630293292754
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_3
+      name: myname_3
       rect:
         serializedVersion: 2
-        x: 1
-        y: 42
-        width: 30
-        height: 40
+        x: 56
+        y: 0
+        width: 13
+        height: 17
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: f8f5b444ca3881f47a3ab79dcd769815
-      internalID: -1858385048
+      spriteID: 0d20b12c521242180800000000000000
+      internalID: -9141144897601207600
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_4
+      name: myname_4
       rect:
         serializedVersion: 2
-        x: 32
-        y: 42
-        width: 30
-        height: 40
+        x: 69
+        y: 5
+        width: 16
+        height: 17
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 8046abf0d35ec4c49b219aad83c8085e
-      internalID: -1258278032
+      spriteID: 570f51bcf5399d630800000000000000
+      internalID: 3952352187632709749
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_5
+      name: myname_5
       rect:
         serializedVersion: 2
-        x: 63
-        y: 42
-        width: 30
-        height: 40
+        x: 81
+        y: 4
+        width: 25
+        height: 13
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 3dedb768d6404c944814142a8180216a
-      internalID: -1128863994
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_6
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 1
-        width: 30
-        height: 40
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e77aa2fc6fff4cd4ab0ea67c18c24bc2
-      internalID: 1576757859
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_7
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 1
-        width: 30
-        height: 40
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f7a51e9de2675fb46b153c91dcdf9047
-      internalID: -1834618994
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_8
-      rect:
-        serializedVersion: 2
-        x: 63
-        y: 1
-        width: 30
-        height: 40
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d14506aa8766e1e45bd606d21bbfc402
-      internalID: -1631430679
+      spriteID: ab2a5f6ad25f71020800000000000000
+      internalID: 2312586510101488314
       vertices: []
       indices: 
       edges: []
@@ -314,7 +263,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5a3757532a499604ead0bb0fb597b711
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -322,19 +271,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":30.0,"y":40.0},"gridSpriteOffset":{"x":1.0,"y":1.0},"gridSpritePadding":{"x":1.0,"y":1.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      player_0: 4334783836991956000
-      player_1: -1337297825
-      player_2: -282994653
-      player_3: -1858385048
-      player_4: -1258278032
-      player_5: -1128863994
-      player_6: 1576757859
-      player_7: -1834618994
-      player_8: -1631430679
+      myname_0: -1882380655364531335
+      myname_1: 8931166311339138587
+      myname_2: 2001912630293292754
+      myname_3: -9141144897601207600
+      myname_4: 3952352187632709749
+      myname_5: 2312586510101488314
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

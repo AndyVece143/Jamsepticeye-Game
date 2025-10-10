@@ -7,7 +7,7 @@ public class Life : MonoBehaviour
         if (collision.tag == "Player")
         {
             collision.GetComponent<Player>().isAngel = false;
-            Destroy(gameObject);
+            //Destroy(gameObject);
         }
     }
 }

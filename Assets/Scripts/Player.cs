@@ -17,6 +17,8 @@ public class Player : MonoBehaviour
     public bool grounded;
     public bool falling;
 
+    public Vector3 spawnPoint;
+
     private void Awake()
     {
         body = GetComponent<Rigidbody2D>();
@@ -112,9 +114,10 @@ public class Player : MonoBehaviour
         Physics2D.IgnoreLayerCollision(6,8);
     }
 
-    private void CheckCollision()
+    private void Respawn()
     {
-
+        isAngel = false;
+        body.position = spawnPoint;
     }
 
     private bool isGrounded()
@@ -123,12 +126,13 @@ public class Player : MonoBehaviour
         return raycastHit.collider != null;
     }
 
-    //private void OnCollisionEnter2D(Collision2D collision)
-    //{
-    //    if (collision.gameObject.tag == "Ground")
-    //    {
-    //        grounded = true;
-    //    }
-    //}
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Heaven")
+        {
+            Debug.Log("Die!");
+            Respawn();
+        }
+    }
 
 }
